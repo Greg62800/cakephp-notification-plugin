@@ -47,7 +47,7 @@ In your layout, display the notifications
 				<?= __('Notifications') ?>
 				<?php if (!empty($notifications)): ?>
 					<span class="badge badge-success">
-						<?php echo count($notifications); ?>
+						<?= count($notifications); ?>
 					</span>
 				<?php endif ?>
 			</a>
