@@ -14,6 +14,7 @@ Download the plugin
 
 Attach the Notifiable behavior to the user model
 
+	<?php
 	class User extends AppModel {
 		public $actsAs = [
 			'Notification.Notifiable' => [
